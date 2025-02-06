@@ -11,7 +11,7 @@ public class FindDuplicates {
         List<Integer> out= new ArrayList<>();
         
         for(int i=0;i<l.size();i++) {
-
+            
             if ((dup.add(l.get(i)))==false) {
                 if(out.contains(l.get(i))==false) {
                 out.add(l.get(i));
